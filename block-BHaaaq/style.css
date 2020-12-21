@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.square1 {
+        width: 150px;
+        height: 100px;
+        background-color:maroon;
+        border-color: black;
+        border-style: solid;
+        border-width: 6px;
+        margin-left: 20px;
+        margin-top: 40px;
+        padding: 10px;
+}
+
+.square2 {
+    display: block;
+    width: 150px;
+    height: 100px;
+    background-color:maroon;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+
+#span1 {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color:maroon;
+    border-color: black;
+    border-style: double;
+    border-width: 4px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+
+#span2 {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color:maroon;
+    border-color: black;
+    border-style: dashed;
+    border-width: 4px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+
+#span3 {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color:maroon;
+    border-color: black;
+    border-style: dotted;
+    border-width: 4px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+
+#span4{
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color:maroon;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+
+.square5 {
+    height: 400px;
+    width: 350px;
+    background-color:red;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 20px;
+    border-top-color:blue;
+    border-right-color:grey;
+    border-left-color: green;
+    border-bottom-color: yellow;
+    outline: purple;
+    outline-style: solid;
+    margin-left: 35px;
+    outline-width: 30px;
+    margin-top: 40px;
+    padding: 10px;
+    box-shadow: 2px, 2px, 2px, black;
+}
+
