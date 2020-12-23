@@ -57,19 +57,54 @@ body {
     margin: 10px 10px ;
 }
 
+h1 {
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+}
+
 .square1 {
     display: inline-block;
+    box-sizing: border-box;
     text-align: center;
     height: 200px;
     width: 200px;
     text-align: center;
-    background-color:lightgreen;
+    background-color:rgb(214, 250, 141);
     padding: 10px;
-    border-color: black;
-    border-width: 1px;
+    border-color: #ADD8E6;
+    border-width: 20px;
     border-style: solid;
-    margin: 10px
+    margin: 30px;
+    outline: 5px solid black;
+    box-shadow: 0 0 0 20px rgb(255, 109, 133);
 }
+
+.textbox {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: grey;
+} 
+.text {
+    font-size: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon {
+
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
 
 #firstsquare {
     text-align: center;
