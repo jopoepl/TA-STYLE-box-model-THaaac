@@ -65,7 +65,7 @@ h1 {
 h2 {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    margin: 30px;
+    margin: 20px;
 }
 
 .square1 {
@@ -87,30 +87,55 @@ h2 {
 
 .textbox {
     display: inline-block;
-    height: 60px;
-    width: 60px;
-    background-color: grey;
+    height: 30px;
+    width: 120px;
+    margin: 0px;
+    margin-bottom: 20px;
 } 
 .text {
-    font-size: 5px;
+    font-size: 20px;
     height: 20px;
     width: 20px;
+    margin: 0px;
+    background-color: white;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
 }
 
 .icon {
-
-    height: 20px;
-    width: 20px;
+    box-sizing: border-box;
+    height: 15px;
+    width: 15px;
     font-size: 20px;
     border-radius: 50%;
+    margin: 0px;
 }
 
+.icon1 {
+    background-color: rgb(214, 250, 141);
+}
+
+.icon2 {
+    background-color: #ADD8E6;
+}
+
+.icon3 {
+    background-color: black;
+}
+
+.icon4 {
+    background-color: rgb(255, 109, 133);
+}
 
 #firstsquare {
     text-align: center;
 }
 div {
     text-align: left;
+    margin: 30px;
 }
 .container {
     display: inline-block;
@@ -123,6 +148,7 @@ div {
     border-width: 1px; 
     margin: 0 auto;
     font-size: 0;
+    margin-bottom: 30px;
 }
 
 hr {
