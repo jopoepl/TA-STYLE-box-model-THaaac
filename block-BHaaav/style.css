@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    word-spacing: 3em;
+}
+body {
+    color: white;
+}
+.container1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    width:inherit;
+    height: 400px;
+    background-color: rgb(32, 32, 43);
+}
+
+.navtext {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.maintitleimage {
+    width: 1200px;
+    height:200px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+.maincontainer {
+    text-align:center;
+}
+
+
+.titleimage {
+
+    width: 1200px;
+    height: 300px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.roundimage {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.container2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 1440px;
+    height: 400px;
+    background-color: #31007a;
+}
+
+.container3 {
+    background-color: #4001a0;
+}
+
+.container4 {
+    background-color: #31007a;
+}
+
+.container5 {
+    background-color: #4001a0;
+}
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.copyright { 
+ width: 1200px;   
+ height: 15px;
+ display: inline-block;
+ margin: 40px;
+ text-align: left;
+
+}
